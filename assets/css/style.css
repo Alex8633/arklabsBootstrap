@@ -1,0 +1,152 @@
+font-face {
+    font-family: 'Roboto Regular';
+    src: url("../fonts/Roboto-Regular.ttf")
+}
+
+header {
+    position: relative;
+    background: linear-gradient( rgba(0, 0, 80, 0.6), rgba(0, 0, 80, 0.6)), url("../img/header-bg.jpg");
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+nav ul li a {
+    color: white;
+    font-weight: 700;
+}
+
+/* utilitaire */
+
+.my-6 {
+    margin-top: 72px;
+    margin-bottom: 72px;
+}
+
+.py-6 {
+    padding-top: 72px;
+    padding-bottom: 72px;
+}
+
+.height-100 {
+    height: 100%;
+}
+
+.height-80 {
+    height: 80%;
+}
+
+.vh-50 {
+    height: 50vh;
+}
+/* header style */
+
+.container-title-header {
+    position: absolute;
+    top: 35%;
+    left: 2%;
+}
+
+h2 {
+    font-size: 7rem;
+    letter-spacing: 0.5rem;
+    text-transform: uppercase;
+}
+
+.text-line-1 {
+    font-size: 2rem;
+    letter-spacing: initial;
+}
+
+.text-line-2 {
+    margin-bottom: 5rem;
+}
+
+.button-view {
+    color: white;
+    border: 1px solid white;
+    padding: 1rem 2rem;
+}
+
+.social-item {
+    margin-top: 2rem;
+}
+
+.social-item i {
+    padding: 6% 1%;
+}
+
+/* dtyle section company */
+
+.logo i {
+    border: 1px solid black;
+    padding: 2rem 2rem;
+}
+
+/* style section about */
+
+.about {
+    background-color: whitesmoke;
+}
+
+.about-us {
+    font-size: 1.5rem;
+    color:goldenrod;
+}
+
+.world-company {
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.button-about-container {
+    margin-top: 15%;
+}
+
+.button-about{
+    color: black;
+    font-weight: 700;
+    border: 1px solid goldenrod;
+    padding: 1rem 2rem;
+}
+
+/* recent work style */
+
+.recent-work-ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.recent-work-a {
+    text-transform: uppercase;
+    color:black;
+}
+
+.active {
+    color: goldenrod;
+}
+
+.container-work {
+    box-shadow: 5px 5px 10px gray;
+    position: relative;
+}
+
+.text-work {
+    width: 100%;
+    background-color: white;
+    position: absolute;
+}
+
+.text-work-45 {
+    top:0;
+    right:0;
+    width: 45%;
+}
