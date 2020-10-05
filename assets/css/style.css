@@ -43,9 +43,11 @@ nav ul li a {
     height: 80%;
 }
 
-.vh-50 {
-    height: 50vh;
+.vh-60 {
+    height: 60vh;
+    overflow: hidden;
 }
+
 /* header style */
 
 .container-title-header {
@@ -98,7 +100,7 @@ h2 {
 
 .about-us {
     font-size: 1.5rem;
-    color:goldenrod;
+    color: goldenrod;
 }
 
 .world-company {
@@ -110,7 +112,7 @@ h2 {
     margin-top: 15%;
 }
 
-.button-about{
+.button-about {
     color: black;
     font-weight: 700;
     border: 1px solid goldenrod;
@@ -127,7 +129,7 @@ h2 {
 
 .recent-work-a {
     text-transform: uppercase;
-    color:black;
+    color: black;
 }
 
 .active {
@@ -146,7 +148,40 @@ h2 {
 }
 
 .text-work-45 {
-    top:0;
-    right:0;
+    top: 0;
+    right: 0;
     width: 45%;
+}
+
+/* view project style */
+
+.view-project {
+    height: 70vh;
+    background: linear-gradient( rgba(0, 20, 50, 0.6), rgba(0, 20, 50, 0.6)), url("../img/ct1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.text-view-project {
+    color:white;
+    text-transform: capitalize;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.play-button {
+    padding: 2rem;
+    border-radius: 50%;
+    background-color: white;
+}
+
+.play-button-wrapper {
+    padding: 1rem;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.heure {
+    color: white;
 }
