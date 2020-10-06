@@ -48,27 +48,31 @@ nav ul li a {
     overflow: hidden;
 }
 
+.v-space {
+    height: 7vh;
+}
+
 /* header style */
 
 .container-title-header {
     position: absolute;
     top: 35%;
-    left: 2%;
+    left: 6%;
 }
 
 h2 {
-    font-size: 7rem;
-    letter-spacing: 0.5rem;
     text-transform: uppercase;
 }
 
 .text-line-1 {
-    font-size: 2rem;
+    font-size: 1rem;
     letter-spacing: initial;
 }
 
 .text-line-2 {
-    margin-bottom: 5rem;
+    line-height: 100%;
+    font-weight: 700;
+    font-size: 4rem;
 }
 
 .button-view {
@@ -157,31 +161,140 @@ h2 {
 
 .view-project {
     height: 70vh;
-    background: linear-gradient( rgba(0, 20, 50, 0.6), rgba(0, 20, 50, 0.6)), url("../img/ct1.jpg");
+    background: linear-gradient( rgba(0, 20, 60, 0.6), rgba(0, 20, 60, 0.6)), url("../img/ct1.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .text-view-project {
-    color:white;
+    color: white;
     text-transform: capitalize;
-    font-size: 2rem;
+    font-size: 2.5rem;
     font-weight: 700;
 }
 
 .play-button {
-    padding: 2rem;
+    padding: 1.5rem;
     border-radius: 50%;
     background-color: white;
 }
 
 .play-button-wrapper {
-    padding: 1rem;
+    padding: 0.8rem;
     border-radius: 50%;
     background-color: rgba(255, 255, 255, 0.2);
 }
 
 .heure {
     color: white;
+    font-weight: 700;
+}
+
+/* textimonials style */
+
+.testimonial {
+    background-color: whitesmoke;
+}
+
+.name {
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.testimonials-text {
+    color: goldenrod;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+.container h3 {
+    font-weight: 700;
+}
+
+.ul-testimonial {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    justify-content: center;
+}
+
+.ul-testimonial li {
+    margin: 1rem;
+    width: 2rem;
+    height: 0.5rem;
+    border-radius: 5px;
+    background-color: lightgrey;
+}
+
+.ul-testimonial li:first-child {
+    background-color: goldenrod;
+}
+
+/* partenaire images */
+
+.partenaire img {
+    filter: grayscale(1);
+    -webkit-filter: grayscale(1);
+    opacity: 0.3;
+}
+
+/* footer style */
+
+.footer {
+    background-color: black;
+}
+
+.footer .footer-title {
+    font-size: 1.2rem;
+    color: white;
+}
+
+.footer-ul {
+    padding: 0;
+}
+
+.footer-ul li {
+    color: white;
+    list-style: none;
+    font-weight: 100;
+}
+
+.footer-paragraph {
+    color: white;
+    font-weight: 100;
+}
+
+.button-footer {
+    padding: 0.5rem 1rem;
+}
+
+.email {
+    background-color: #334F6C;
+    color: gold;
+}
+
+.email:hover {
+    color: gold;
+    text-decoration: none;
+}
+
+.subscribe {
+    color: #334F6C;
+    background-color: white;
+}
+
+.subscribe:hover {
+    color: inherit;
+    text-decoration: none;
+}
+
+.copyright {
+    font-weight: 100;
+    color: white;
+}
+
+.footer-social-items i {
+    padding: 0.5rem;
+    background-color: #334F6C;
 }
