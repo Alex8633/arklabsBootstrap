@@ -3,6 +3,10 @@ font-face {
     src: url("../fonts/Roboto-Regular.ttf")
 }
 
+body {
+    font-family: "Roboto Regular", sans-serif;
+}
+
 header {
     position: relative;
     background: linear-gradient( rgba(0, 0, 80, 0.6), rgba(0, 0, 80, 0.6)), url("../img/header-bg.jpg");
@@ -60,16 +64,25 @@ nav ul li a {
     height: 7vh;
 }
 
+.v-space-2 {
+    height: 14vh;
+    ;
+}
+
 /* header style */
 
-.container-title-header {
+/* .container-title-header {
     position: absolute;
     top: 35%;
     left: 6%;
-}
+} */
 
 h2 {
     text-transform: uppercase;
+}
+
+.header {
+    padding: 1rem 5rem;
 }
 
 .text-line-1 {
@@ -80,7 +93,7 @@ h2 {
 .text-line-2 {
     line-height: 100%;
     font-weight: 700;
-    font-size: 4rem;
+    font-size: 5rem;
 }
 
 .button-view {
@@ -292,6 +305,14 @@ h2 {
     background-color: #334F6C;
 }
 
+.footer-paragraph {
+    color: #6B6E76;
+}
+
+.footer ul li {
+    color: #6B6E76
+}
+
 .author {
-    color:#826850;
+    color: #826850;
 }
