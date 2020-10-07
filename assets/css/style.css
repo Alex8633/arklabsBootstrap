@@ -9,11 +9,20 @@ body {
 
 header {
     position: relative;
-    background: linear-gradient( rgba(0, 0, 80, 0.6), rgba(0, 0, 80, 0.6)), url("../img/header-bg.jpg");
+    background-image:  url("../img/header-bg.jpg");
     height: 100vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.overlay {
+    position: absolute;
+    background: rgba(5, 10, 52, 0.6);
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
 }
 
 nav ul {
@@ -28,6 +37,14 @@ nav ul li a {
 }
 
 /* utilitaire */
+
+.brands-area {
+    padding: 60px 0;
+}
+
+.section-gap {
+    padding: 130px 0;
+}
 
 .right-15px {
     right: 15px;
@@ -76,6 +93,15 @@ nav ul li a {
     top: 35%;
     left: 6%;
 } */
+
+.active a {
+    color:#BF9870;
+}
+
+nav li a:hover {
+    color:#BF9870;
+    text-decoration: none;
+}
 
 h2 {
     text-transform: uppercase;
@@ -165,8 +191,8 @@ h2 {
 /* view project style */
 
 .view-project {
-    height: 70vh;
-    background: linear-gradient( rgba(0, 20, 60, 0.6), rgba(0, 20, 60, 0.6)), url("../img/ct1.jpg");
+    /* height: 70vh; */
+    background: linear-gradient( rgba(5, 10, 52, 0.7), rgba(5, 10, 52, 0.7)), url("../img/ct1.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
