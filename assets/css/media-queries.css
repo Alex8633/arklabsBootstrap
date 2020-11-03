@@ -11,17 +11,48 @@
         margin: 0;
         background-color: #233547;
     }
+
+    .text-line-1 {
+        text-align: center;
+    }
+
     .text-line-2 {
         text-align: center;
         font-size: 40px;
         line-height: 50px;
-        margin: 0 !important;
+    }
+
+    .recent-work-ul {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .recent-work-a {
+        margin: 0 0.7rem;
+        flex-wrap: wrap;
     }
     /* media queries testimonial */
 
     .hidden {
         display: none;
     }
+
+    /* Media queries partenaires*/
+    .partenaire-responsive {
+        justify-content: space-around !important;
+    }
     /* media queries footer */
-    
+    .hide-responsive {
+        display: none;
+    }
+
+    .footer-responsive {
+        flex-direction: column !important;
+    }
+
+    .copyright {
+        margin-top: 2rem;
+    }
+
+
 }

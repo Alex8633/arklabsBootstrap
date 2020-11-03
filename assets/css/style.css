@@ -1,4 +1,4 @@
-font-face {
+@font-face {
     font-family: 'Roboto Regular';
     src: url("../fonts/Roboto-Regular.ttf")
 }
@@ -136,7 +136,7 @@ h2 {
     padding: 6% 1%;
 }
 
-/* dtyle section company */
+/* style section company */
 
 .logo i {
     border: 1px solid black;
@@ -182,6 +182,7 @@ h2 {
 .recent-work-a {
     text-transform: uppercase;
     color: black;
+    font-weight: lighter;
 }
 
 .active {
